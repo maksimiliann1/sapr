@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="js/tables.js"></script>
+    <script defer type="text/javascript" src="./js/saving.js"></script>
+    <script type="text/javascript" src="js/painter.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href = "css/sapr.css">
+</head>
+    <div class="btn1">
+        <input type="text" name="username" id = "input1" placeholder="Количество участков">
+        <button type="input"  name="createTable" onclick="table1()">Создать таблицу</button>
+        <div id = "firstTable" class= "tabl"></div>
+        <input type="checkbox" id ="leftOpor">опора слева</input>
+        <input type="checkbox" id ="rigthOpor">опора справа</input>
+    </div>
+    <div class="btn2">
+        <input type="text" name="username" id = "input2" placeholder="Количество участков">
+        <button type="input"  name="createTable" onclick="table2()">Создать таблицу</button>
+        
+        <div id = "secondTable"></div>
+    </div>
+    <div class="btn3">
+        <input type="text" name="username" id = "input3" placeholder="Количество продольных сил">
+        <button type="input"  name="createTable" onclick="table3()">Создать таблицу</button>
+        <div id = "thirdTable"></div>
+    </div>
+        
+        <button type="input" class ="btn4" name="confirm" onclick="formJson()">Подтвердить</button>
+        <div class = "paint" id = "painter">
+            <!-- <div style = "width: 100px; height: 100px; border:1px solid;"></div> -->
+            <!-- <div style+="width: 20px; height: 20px; border:1px solid; margin:auto;"></div>
+             -->
+        </div>
+        <!-- <script>
+       function makeJson(){
+        formJson()
+       }
+
+        </script> -->
+        
+    
+
+    
+
+    
+    
+</body>
+</html>
